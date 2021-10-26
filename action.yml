@@ -6,7 +6,7 @@ branding:
   icon: "command"
 runs:
   using: "docker"
-  image: "Dockerfile"
+  image: docker://shantkeh/eks-kubectl-action
 inputs:
   cluster_name:
     description: The name of the cluster you're using
